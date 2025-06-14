@@ -10,7 +10,7 @@ A Software Engineering Technology student at **IPB University** from Bogor, Indo
 
 ---
 
-#### 🛠️ Core Tech Stack
+#### 🛠️ Tech Stack
 
 <p align="center">
   <a href="https://skillicons.dev">
