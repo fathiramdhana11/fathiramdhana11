@@ -18,7 +18,7 @@ A Software Engineering Technology student at **IPB University** from Bogor, Indo
   </a>
 </p>
 
-<img src="https://raw.githubusercontent.com/fathiramdhana11/fathiramdhana11/output/snake.svg" alt="Snake animation" />
+![github-contribution-grid-snake-dark](https://github.com/user-attachments/assets/cd6c5a7b-5dc2-4b2d-b657-c895b49b0401)
 
 #### 🌱 Current Focus
 
