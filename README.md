@@ -1,5 +1,7 @@
 ![Header](images/header.png)
 
+#### 💫 About Me
+
 A Software Engineering Technology student at **IPB University** from Bogor, Indonesia. I'm passionate about building data-driven solutions at the intersection of **Web Development** and **Data Analysis**.
 
 <p align="center">
@@ -23,6 +25,10 @@ A Software Engineering Technology student at **IPB University** from Bogor, Indo
 #### 🌱 Current Focus
 
 - Currently focused on building full-stack applications with **Laravel** and **Modern JavaScript**, aiming to integrate data analysis and AI features.
+  
+---
+
+#### 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=fathiramdhana11&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="Fathi's GitHub Stats" />&nbsp;&nbsp;<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fathiramdhana11&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
