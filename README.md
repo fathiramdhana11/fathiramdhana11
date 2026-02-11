@@ -30,12 +30,9 @@ A Software Engineering Technology student at **IPB University** from Bogor, Indo
 
 #### 📊 GitHub Stats
 
-<div style="text-align: center;">
-  <img 
-    src="https://streak-stats.demolab.com?user=fathiramdhana11&theme=gotham&hide_border=true" 
-    alt="GitHub Stats"
-  />
-</div>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=fathiramdhana11&theme=gotham&hide_border=true" />
+</p>
 
 ---
 
