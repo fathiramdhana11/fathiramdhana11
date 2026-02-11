@@ -29,11 +29,9 @@ A Software Engineering Technology student at **IPB University** from Bogor, Indo
 ---
 
 #### 📊 GitHub Stats
-<!--
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=fathiramdhana11&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="Fathi's GitHub Stats" />&nbsp;&nbsp;<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fathiramdhana11&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-</p>
--->
+
+<img src="https://streak-stats.demolab.com?user=fathiramdhana11&theme=gotham&hide_border=true" alt="fathiramdhana11's GitHub Stats" />
+
 ---
 
 <p align="center">
