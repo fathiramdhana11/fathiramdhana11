@@ -16,7 +16,7 @@ A Software Engineering Technology student at **IPB University** from Bogor, Indo
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,tailwind,js,vue,react,php,laravel,python,mysql,postgres,git,vscode,figma,discord&theme=light" />
+    <img src="https://skillicons.dev/icons?i=html,css,tailwind,js,vue,react,express,nextjs,nginx,php,laravel,python,mysql,postgres,git,npm,vscode,figma,discord&theme=light" />
   </a>
 </p>
 
