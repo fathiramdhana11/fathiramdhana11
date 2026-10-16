@@ -1,0 +1,53 @@
+name: Daily Contribution Bot
+
+on:
+  schedule:
+    # Run twice a day (04:00 and 16:00 UTC)
+    - cron: "0 4,16 * * *"
+  workflow_dispatch:
+    inputs:
+      fill_past_days:
+        description: "Jumlah hari ke belakang untuk diisi commit hijau sekaligus (misal: 60)"
+        required: false
+        default: "0"
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Git user
+        run: |
+          git config --local user.email "fathi.ramdhana@gmail.com"
+          git config --local user.name "Muhammad Fathi Ramdhana"
+
+      - name: Fill past days (if requested)
+        if: ${{ github.event.inputs.fill_past_days != '0' && github.event.inputs.fill_past_days != '' }}
+        run: |
+          DAYS=${{ github.event.inputs.fill_past_days }}
+          echo "Generating commits for the past $DAYS days..."
+          mkdir -p .github/activity
+          for ((i=DAYS; i>=1; i--)); do
+            COMMIT_DATE=$(date -d "$i days ago" +"%Y-%m-%dT12:00:00")
+            echo "Activity log for $COMMIT_DATE" >> .github/activity/history.log
+            git add .github/activity/history.log
+            GIT_AUTHOR_DATE="$COMMIT_DATE" GIT_COMMITTER_DATE="$COMMIT_DATE" git commit -m "chore: activity log for $COMMIT_DATE [skip ci]" || true
+          done
+
+      - name: Daily automated commit
+        run: |
+          mkdir -p .github/activity
+          echo "Active on $(date -u)" >> .github/activity/log.txt
+          git add .github/activity/log.txt
+          git commit -m "chore(activity): automated daily activity $(date -u +'%Y-%m-%d') [skip ci]" || echo "No changes"
+
+      - name: Push changes
+        run: |
+          git push origin main
