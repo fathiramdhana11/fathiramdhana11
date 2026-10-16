@@ -29,7 +29,11 @@ Software Engineering Technology Graduate from **IPB University** (Bogor, Indones
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/cd6c5a7b-5dc2-4b2d-b657-c895b49b0401" alt="GitHub Contribution Snake" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fathiramdhana11/fathiramdhana11/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/fathiramdhana11/fathiramdhana11/output/pacman-contribution-graph.svg">
+    <img alt="Pac-Man Contribution Graph" src="https://raw.githubusercontent.com/fathiramdhana11/fathiramdhana11/output/pacman-contribution-graph.svg">
+  </picture>
 </p>
 
 ---
@@ -43,8 +47,14 @@ Software Engineering Technology Graduate from **IPB University** (Bogor, Indones
 
 ---
 
-<p align
+<p align="center">
+  <i>Feel free to explore my repositories below to see my work!</i>
+</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=fathiramdhana11&label=Profile%20Views&color=0A66C2&style=flat" alt="Profile Views" />
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0A66C2&height=100&section=footer" width="100%" alt="Footer Wave" />
 </p>
