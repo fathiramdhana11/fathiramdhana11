@@ -1,11 +1,16 @@
-<p
-="center">
+<p align="center">
   <img src="images/header.png" alt="Header" width="100%" />
 </p>
 
 #### 💫 About Me
 
 Software Engineering Technology Graduate from **IPB University** (Bogor, Indonesia) with a strong focus on **Full-Stack Web Development** and **Software Quality Assurance**.
+
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=0A66C2&center=true&vCenter=true&width=450&lines=Hi%2C+I'm+Muhammad+Fathi+%F0%9F%91%8B;Full-Stack+Web+Developer+%F0%9F%92%BB;Software+Quality+Assurance+%F0%9F%8E%AF;Always+curious+%26+learning+new+things+%F0%9F%9A%80" alt="Typing SVG" />
+  </a>
+</p>
 
 <p align="center">
   <a href="https://fathiramdhana.my.id" target="_blank"><img src="https://img.shields.io/badge/Website-Portfolio-%230A66C2?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/></a>&nbsp;
@@ -38,6 +43,8 @@ Software Engineering Technology Graduate from **IPB University** (Bogor, Indones
 
 ---
 
+<p align
+
 <p align="center">
-  <i>Feel free to explore my repositories below to see my work!</i>
+  <img src="https://komarev.com/ghpvc/?username=fathiramdhana11&label=Profile%20Views&color=0A66C2&style=flat" alt="Profile Views" />
 </p>
